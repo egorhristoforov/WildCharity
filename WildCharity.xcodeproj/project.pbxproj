@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1931E9CC5732A034E4241F7F /* Pods_WildCharity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9959E5E81B88A71C73276496 /* Pods_WildCharity.framework */; };
+		7447C889233E6174002A8550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447C888233E6174002A8550 /* AppDelegate.swift */; };
+		7447C88D233E6174002A8550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447C88C233E6174002A8550 /* ViewController.swift */; };
+		7447C890233E6174002A8550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7447C88E233E6174002A8550 /* Main.storyboard */; };
+		7447C892233E6174002A8550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7447C891233E6174002A8550 /* Assets.xcassets */; };
+		7447C895233E6174002A8550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7447C893233E6174002A8550 /* LaunchScreen.storyboard */; };
+		7447C89F233E6759002A8550 /* FundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447C89E233E6759002A8550 /* FundCell.swift */; };
+		7447C8A1233E83D5002A8550 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447C8A0233E83D5002A8550 /* MapViewController.swift */; };
+		7447C8A3233F2F87002A8550 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7447C8A2233F2F87002A8550 /* ARKit.framework */; };
+		7447C8A5233F4575002A8550 /* ARSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447C8A4233F4575002A8550 /* ARSessionViewController.swift */; };
+		7447C8A7233F5093002A8550 /* FaundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447C8A6233F5093002A8550 /* FaundViewController.swift */; };
+		74EE3140233F6F20007076C0 /* ARModels.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EE313F233F6F20007076C0 /* ARModels.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A39A8DAED13AF41EFBA2646 /* Pods-WildCharity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildCharity.debug.xcconfig"; path = "Target Support Files/Pods-WildCharity/Pods-WildCharity.debug.xcconfig"; sourceTree = "<group>"; };
+		7447C885233E6174002A8550 /* WildCharity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildCharity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7447C888233E6174002A8550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7447C88C233E6174002A8550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7447C88F233E6174002A8550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7447C891233E6174002A8550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7447C894233E6174002A8550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7447C896233E6174002A8550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7447C89E233E6759002A8550 /* FundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundCell.swift; sourceTree = "<group>"; };
+		7447C8A0233E83D5002A8550 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7447C8A2233F2F87002A8550 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		7447C8A4233F4575002A8550 /* ARSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionViewController.swift; sourceTree = "<group>"; };
+		7447C8A6233F5093002A8550 /* FaundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaundViewController.swift; sourceTree = "<group>"; };
+		74EE313F233F6F20007076C0 /* ARModels.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARModels.scnassets; sourceTree = "<group>"; };
+		9959E5E81B88A71C73276496 /* Pods_WildCharity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildCharity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE80C1CE012397AE52976293 /* Pods-WildCharity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildCharity.release.xcconfig"; path = "Target Support Files/Pods-WildCharity/Pods-WildCharity.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7447C882233E6174002A8550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7447C8A3233F2F87002A8550 /* ARKit.framework in Frameworks */,
+				1931E9CC5732A034E4241F7F /* Pods_WildCharity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330F100E68B91E139EF1E967 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7447C8A2233F2F87002A8550 /* ARKit.framework */,
+				9959E5E81B88A71C73276496 /* Pods_WildCharity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7447C87C233E6174002A8550 = {
+			isa = PBXGroup;
+			children = (
+				7447C887233E6174002A8550 /* WildCharity */,
+				7447C886233E6174002A8550 /* Products */,
+				F056FA928D2B1C532F3C5259 /* Pods */,
+				330F100E68B91E139EF1E967 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7447C886233E6174002A8550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7447C885233E6174002A8550 /* WildCharity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7447C887233E6174002A8550 /* WildCharity */ = {
+			isa = PBXGroup;
+			children = (
+				7447C888233E6174002A8550 /* AppDelegate.swift */,
+				7447C88C233E6174002A8550 /* ViewController.swift */,
+				7447C88E233E6174002A8550 /* Main.storyboard */,
+				7447C891233E6174002A8550 /* Assets.xcassets */,
+				7447C893233E6174002A8550 /* LaunchScreen.storyboard */,
+				7447C896233E6174002A8550 /* Info.plist */,
+				7447C89E233E6759002A8550 /* FundCell.swift */,
+				7447C8A0233E83D5002A8550 /* MapViewController.swift */,
+				7447C8A4233F4575002A8550 /* ARSessionViewController.swift */,
+				7447C8A6233F5093002A8550 /* FaundViewController.swift */,
+				74EE313F233F6F20007076C0 /* ARModels.scnassets */,
+			);
+			path = WildCharity;
+			sourceTree = "<group>";
+		};
+		F056FA928D2B1C532F3C5259 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A39A8DAED13AF41EFBA2646 /* Pods-WildCharity.debug.xcconfig */,
+				FE80C1CE012397AE52976293 /* Pods-WildCharity.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7447C884233E6174002A8550 /* WildCharity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7447C899233E6174002A8550 /* Build configuration list for PBXNativeTarget "WildCharity" */;
+			buildPhases = (
+				9874CA9D9FD4D54D6847120C /* [CP] Check Pods Manifest.lock */,
+				7447C881233E6174002A8550 /* Sources */,
+				7447C882233E6174002A8550 /* Frameworks */,
+				7447C883233E6174002A8550 /* Resources */,
+				9B41B788C74E6FA7CD6FD8CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WildCharity;
+			productName = WildCharity;
+			productReference = 7447C885233E6174002A8550 /* WildCharity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7447C87D233E6174002A8550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = EgorHristoforov;
+				TargetAttributes = {
+					7447C884233E6174002A8550 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 7447C880233E6174002A8550 /* Build configuration list for PBXProject "WildCharity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7447C87C233E6174002A8550;
+			productRefGroup = 7447C886233E6174002A8550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7447C884233E6174002A8550 /* WildCharity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7447C883233E6174002A8550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7447C895233E6174002A8550 /* LaunchScreen.storyboard in Resources */,
+				7447C892233E6174002A8550 /* Assets.xcassets in Resources */,
+				74EE3140233F6F20007076C0 /* ARModels.scnassets in Resources */,
+				7447C890233E6174002A8550 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9874CA9D9FD4D54D6847120C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WildCharity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B41B788C74E6FA7CD6FD8CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WildCharity/Pods-WildCharity-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WildCharity/Pods-WildCharity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7447C881233E6174002A8550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7447C88D233E6174002A8550 /* ViewController.swift in Sources */,
+				7447C89F233E6759002A8550 /* FundCell.swift in Sources */,
+				7447C889233E6174002A8550 /* AppDelegate.swift in Sources */,
+				7447C8A7233F5093002A8550 /* FaundViewController.swift in Sources */,
+				7447C8A1233E83D5002A8550 /* MapViewController.swift in Sources */,
+				7447C8A5233F4575002A8550 /* ARSessionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7447C88E233E6174002A8550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7447C88F233E6174002A8550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7447C893233E6174002A8550 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7447C894233E6174002A8550 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7447C897233E6174002A8550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7447C898233E6174002A8550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7447C89A233E6174002A8550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A39A8DAED13AF41EFBA2646 /* Pods-WildCharity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7M5Y2NGZWP;
+				INFOPLIST_FILE = WildCharity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EgorHristoforov.WildCharity;
+				PRODUCT_NAME = WildCharity;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7447C89B233E6174002A8550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE80C1CE012397AE52976293 /* Pods-WildCharity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7M5Y2NGZWP;
+				INFOPLIST_FILE = WildCharity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EgorHristoforov.WildCharity;
+				PRODUCT_NAME = WildCharity;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7447C880233E6174002A8550 /* Build configuration list for PBXProject "WildCharity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7447C897233E6174002A8550 /* Debug */,
+				7447C898233E6174002A8550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7447C899233E6174002A8550 /* Build configuration list for PBXNativeTarget "WildCharity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7447C89A233E6174002A8550 /* Debug */,
+				7447C89B233E6174002A8550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7447C87D233E6174002A8550 /* Project object */;
+}
