@@ -50,7 +50,6 @@ class MapViewController: UIViewController, GMSMapViewDelegate, ARSCNViewDelegate
         
             DataLoader().getWildPoints { (responseWildPoints) in
                 self.wildPoints = responseWildPoints.wildpoints
-                print("Success")
                 self.addMarkers()
             }
             
@@ -108,7 +107,6 @@ class MapViewController: UIViewController, GMSMapViewDelegate, ARSCNViewDelegate
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(withIdentifier: "ARSessionVC") as! ARSessionViewController
             vc.wildPoints = result.wildpoints
-            print(result.wildpoints.count)
             self.present(vc, animated: true, completion: nil)
         }
     }

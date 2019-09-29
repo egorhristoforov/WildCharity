@@ -43,7 +43,6 @@ class FundCell: UITableViewCell {
             DispatchQueue.global(qos: .userInitiated).async {
                 DispatchQueue.main.async {
                     view.kf.setImage(with: url)
-                    print("Set image")
                 }
             }
         }

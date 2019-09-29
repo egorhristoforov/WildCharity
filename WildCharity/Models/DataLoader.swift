@@ -21,7 +21,6 @@ let REQUEST_CREATEWILDPOINT: String = "set_wildpoint/"
 class DataLoader {
     func getFunds (completion:@escaping ((_ result: ResponseFund) -> Void)) {
         var funds = ResponseFund(fonds: [])
-        print(funds)
         let headers = ["Content-Type": "application/json"]
         Alamofire.request(SERVER_URL + REQUEST_FUNDS,
                           method: .post,
@@ -34,7 +33,6 @@ class DataLoader {
                                     do{
                                         let decoder = JSONDecoder()
                                         funds = try decoder.decode(ResponseFund.self, from: data)
-                                        print(funds)
                                     } catch {
                                         print(error.localizedDescription)
                                     }
@@ -56,7 +54,6 @@ class DataLoader {
                           parameters: [:],
                           encoding: JSONEncoding.default,
                           headers: headers).validate().responseData { response in
-                            print(response)
                             switch response.result {
                             case .success:
                                 if let data = response.data{
@@ -98,7 +95,6 @@ class DataLoader {
                                 print("Failed create user account")
                             }
                             OperationQueue.main.addOperation {
-                                print("completion")
                                 completion(serverResponse)
                             }
         }
@@ -126,7 +122,6 @@ class DataLoader {
                                 print("Failed sign in")
                             }
                             OperationQueue.main.addOperation {
-                                print("completion")
                                 completion(serverResponse)
                             }
         }
@@ -154,7 +149,6 @@ class DataLoader {
                                 print("Failed get profile")
                             }
                             OperationQueue.main.addOperation {
-                                print("completion")
                                 completion(serverResponse)
                             }
         }
@@ -182,7 +176,6 @@ class DataLoader {
                                 print("Failed create wild point")
                             }
                             OperationQueue.main.addOperation {
-                                print("completion")
                                 completion(serverResponse)
                             }
         }
@@ -196,7 +189,6 @@ class DataLoader {
                           parameters: ["user":request.conventParameters()],
                           encoding: JSONEncoding.default,
                           headers: headers).validate().responseData { response in
-                            print(response)
                             switch response.result {
                             case .success:
                                 if let data = response.data{

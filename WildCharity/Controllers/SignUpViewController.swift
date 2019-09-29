@@ -76,13 +76,8 @@ class SignUpViewController: UIViewController {
                             let storyboard = UIStoryboard(name: "Main", bundle: nil)
                             let vc = storyboard.instantiateViewController(withIdentifier: "ARSessionVC") as! ARSessionViewController
                             vc.wildPoints = result.wildpoints
-                            print(result.wildpoints.count)
                             self.present(vc, animated: true, completion: nil)
                         }
-//                        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//                        let vc = storyboard.instantiateViewController(withIdentifier: "ARSessionVC") as! ARSessionViewController
-//
-//                        self.present(vc, animated: true, completion: nil)
                     }
                 }
             }

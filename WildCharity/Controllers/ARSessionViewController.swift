@@ -57,13 +57,6 @@ class ARSessionViewController: UIViewController, ARSCNViewDelegate {
         let scene = SCNScene()
         arSceneView.scene = scene
         
-//        for i in 0..<modelsCount {
-//            let modelNode = createModel(animal: "Panda")
-//            modelNode.position = getPositionForModel(withIndex: i)
-//            models.append(modelNode)
-//            arSceneView.scene.rootNode.addChildNode(modelNode)
-//        }
-        
     }
     
     private func createModel(animal: String) -> SCNNode {
