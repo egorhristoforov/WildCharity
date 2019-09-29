@@ -8,4 +8,6 @@ target 'WildCharity' do
   # Pods for WildCharity
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  pod 'Kingfisher'
+  pod 'Alamofire'
 end

@@ -17,8 +17,27 @@
 		7447C8A1233E83D5002A8550 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447C8A0233E83D5002A8550 /* MapViewController.swift */; };
 		7447C8A3233F2F87002A8550 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7447C8A2233F2F87002A8550 /* ARKit.framework */; };
 		7447C8A5233F4575002A8550 /* ARSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447C8A4233F4575002A8550 /* ARSessionViewController.swift */; };
-		7447C8A7233F5093002A8550 /* FaundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447C8A6233F5093002A8550 /* FaundViewController.swift */; };
+		7447C8A7233F5093002A8550 /* FundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447C8A6233F5093002A8550 /* FundViewController.swift */; };
 		74EE3140233F6F20007076C0 /* ARModels.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EE313F233F6F20007076C0 /* ARModels.scnassets */; };
+		74FBC4F2233F8E6600B8B568 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC4F1233F8E6600B8B568 /* DataLoader.swift */; };
+		74FBC4F4233F8ED900B8B568 /* ResponseFund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC4F3233F8ED900B8B568 /* ResponseFund.swift */; };
+		74FBC4F6233F910700B8B568 /* ResponceWildPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC4F5233F910700B8B568 /* ResponceWildPoints.swift */; };
+		74FBC4FA233F99EB00B8B568 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC4F9233F99EB00B8B568 /* Reachability.swift */; };
+		74FBC501233FD2E200B8B568 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC500233FD2E200B8B568 /* UserDefaultsManager.swift */; };
+		74FBC503233FD97500B8B568 /* SuccessDonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC502233FD97500B8B568 /* SuccessDonateViewController.swift */; };
+		74FBC505233FDEDF00B8B568 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC504233FDEDF00B8B568 /* SignInViewController.swift */; };
+		74FBC507233FDEEF00B8B568 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC506233FDEEF00B8B568 /* SignUpViewController.swift */; };
+		74FBC509233FE50A00B8B568 /* DataValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC508233FE50A00B8B568 /* DataValidation.swift */; };
+		74FBC50B233FE88100B8B568 /* RequestSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC50A233FE88100B8B568 /* RequestSignUp.swift */; };
+		74FBC50D233FEECB00B8B568 /* ResponseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC50C233FEECB00B8B568 /* ResponseAuth.swift */; };
+		74FBC50F233FF2C900B8B568 /* RequestSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC50E233FF2C900B8B568 /* RequestSignIn.swift */; };
+		74FBC5112340138700B8B568 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC5102340138700B8B568 /* ProfileViewController.swift */; };
+		74FBC5132340159500B8B568 /* MerchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC5122340159500B8B568 /* MerchCollectionViewCell.swift */; };
+		74FBC5152340178200B8B568 /* Merch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC5142340178200B8B568 /* Merch.swift */; };
+		74FBC5172340707900B8B568 /* RequestProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC5162340707900B8B568 /* RequestProfile.swift */; };
+		74FBC51923407DE000B8B568 /* RequestCreateWildPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC51823407DE000B8B568 /* RequestCreateWildPoint.swift */; };
+		74FBC51B23407E8F00B8B568 /* ResponseCreateWildPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC51A23407E8F00B8B568 /* ResponseCreateWildPoint.swift */; };
+		74FBC51D234086A300B8B568 /* RequestNearbyWildPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FBC51C234086A300B8B568 /* RequestNearbyWildPoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +53,27 @@
 		7447C8A0233E83D5002A8550 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7447C8A2233F2F87002A8550 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		7447C8A4233F4575002A8550 /* ARSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionViewController.swift; sourceTree = "<group>"; };
-		7447C8A6233F5093002A8550 /* FaundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaundViewController.swift; sourceTree = "<group>"; };
+		7447C8A6233F5093002A8550 /* FundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundViewController.swift; sourceTree = "<group>"; };
 		74EE313F233F6F20007076C0 /* ARModels.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARModels.scnassets; sourceTree = "<group>"; };
+		74FBC4F1233F8E6600B8B568 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		74FBC4F3233F8ED900B8B568 /* ResponseFund.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseFund.swift; sourceTree = "<group>"; };
+		74FBC4F5233F910700B8B568 /* ResponceWildPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponceWildPoints.swift; sourceTree = "<group>"; };
+		74FBC4F9233F99EB00B8B568 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		74FBC500233FD2E200B8B568 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		74FBC502233FD97500B8B568 /* SuccessDonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessDonateViewController.swift; sourceTree = "<group>"; };
+		74FBC504233FDEDF00B8B568 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		74FBC506233FDEEF00B8B568 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		74FBC508233FE50A00B8B568 /* DataValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataValidation.swift; sourceTree = "<group>"; };
+		74FBC50A233FE88100B8B568 /* RequestSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSignUp.swift; sourceTree = "<group>"; };
+		74FBC50C233FEECB00B8B568 /* ResponseAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAuth.swift; sourceTree = "<group>"; };
+		74FBC50E233FF2C900B8B568 /* RequestSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSignIn.swift; sourceTree = "<group>"; };
+		74FBC5102340138700B8B568 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		74FBC5122340159500B8B568 /* MerchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchCollectionViewCell.swift; sourceTree = "<group>"; };
+		74FBC5142340178200B8B568 /* Merch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merch.swift; sourceTree = "<group>"; };
+		74FBC5162340707900B8B568 /* RequestProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProfile.swift; sourceTree = "<group>"; };
+		74FBC51823407DE000B8B568 /* RequestCreateWildPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCreateWildPoint.swift; sourceTree = "<group>"; };
+		74FBC51A23407E8F00B8B568 /* ResponseCreateWildPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCreateWildPoint.swift; sourceTree = "<group>"; };
+		74FBC51C234086A300B8B568 /* RequestNearbyWildPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestNearbyWildPoints.swift; sourceTree = "<group>"; };
 		9959E5E81B88A71C73276496 /* Pods_WildCharity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildCharity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE80C1CE012397AE52976293 /* Pods-WildCharity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildCharity.release.xcconfig"; path = "Target Support Files/Pods-WildCharity/Pods-WildCharity.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,19 +121,62 @@
 		7447C887233E6174002A8550 /* WildCharity */ = {
 			isa = PBXGroup;
 			children = (
+				74FBC4FD233F9B1F00B8B568 /* Controllers */,
+				74FBC4FC233F9B1900B8B568 /* Views */,
+				74FBC4FB233F9B1000B8B568 /* Models */,
 				7447C888233E6174002A8550 /* AppDelegate.swift */,
-				7447C88C233E6174002A8550 /* ViewController.swift */,
-				7447C88E233E6174002A8550 /* Main.storyboard */,
 				7447C891233E6174002A8550 /* Assets.xcassets */,
 				7447C893233E6174002A8550 /* LaunchScreen.storyboard */,
 				7447C896233E6174002A8550 /* Info.plist */,
-				7447C89E233E6759002A8550 /* FundCell.swift */,
-				7447C8A0233E83D5002A8550 /* MapViewController.swift */,
-				7447C8A4233F4575002A8550 /* ARSessionViewController.swift */,
-				7447C8A6233F5093002A8550 /* FaundViewController.swift */,
 				74EE313F233F6F20007076C0 /* ARModels.scnassets */,
 			);
 			path = WildCharity;
+			sourceTree = "<group>";
+		};
+		74FBC4FB233F9B1000B8B568 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74FBC4F1233F8E6600B8B568 /* DataLoader.swift */,
+				74FBC4F3233F8ED900B8B568 /* ResponseFund.swift */,
+				74FBC4F5233F910700B8B568 /* ResponceWildPoints.swift */,
+				74FBC4F9233F99EB00B8B568 /* Reachability.swift */,
+				74FBC500233FD2E200B8B568 /* UserDefaultsManager.swift */,
+				74FBC508233FE50A00B8B568 /* DataValidation.swift */,
+				74FBC50A233FE88100B8B568 /* RequestSignUp.swift */,
+				74FBC50C233FEECB00B8B568 /* ResponseAuth.swift */,
+				74FBC50E233FF2C900B8B568 /* RequestSignIn.swift */,
+				74FBC5142340178200B8B568 /* Merch.swift */,
+				74FBC5162340707900B8B568 /* RequestProfile.swift */,
+				74FBC51823407DE000B8B568 /* RequestCreateWildPoint.swift */,
+				74FBC51A23407E8F00B8B568 /* ResponseCreateWildPoint.swift */,
+				74FBC51C234086A300B8B568 /* RequestNearbyWildPoints.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74FBC4FC233F9B1900B8B568 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7447C89E233E6759002A8550 /* FundCell.swift */,
+				7447C88E233E6174002A8550 /* Main.storyboard */,
+				74FBC5122340159500B8B568 /* MerchCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74FBC4FD233F9B1F00B8B568 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7447C88C233E6174002A8550 /* ViewController.swift */,
+				7447C8A0233E83D5002A8550 /* MapViewController.swift */,
+				7447C8A4233F4575002A8550 /* ARSessionViewController.swift */,
+				7447C8A6233F5093002A8550 /* FundViewController.swift */,
+				74FBC502233FD97500B8B568 /* SuccessDonateViewController.swift */,
+				74FBC504233FDEDF00B8B568 /* SignInViewController.swift */,
+				74FBC506233FDEEF00B8B568 /* SignUpViewController.swift */,
+				74FBC5102340138700B8B568 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		F056FA928D2B1C532F3C5259 /* Pods */ = {
@@ -119,6 +200,7 @@
 				7447C882233E6174002A8550 /* Frameworks */,
 				7447C883233E6174002A8550 /* Resources */,
 				9B41B788C74E6FA7CD6FD8CB /* [CP] Copy Pods Resources */,
+				8E06C968430007E58DA7B89B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +259,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8E06C968430007E58DA7B89B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WildCharity/Pods-WildCharity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WildCharity/Pods-WildCharity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9874CA9D9FD4D54D6847120C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,9 +338,28 @@
 			files = (
 				7447C88D233E6174002A8550 /* ViewController.swift in Sources */,
 				7447C89F233E6759002A8550 /* FundCell.swift in Sources */,
+				74FBC4F2233F8E6600B8B568 /* DataLoader.swift in Sources */,
+				74FBC50D233FEECB00B8B568 /* ResponseAuth.swift in Sources */,
+				74FBC501233FD2E200B8B568 /* UserDefaultsManager.swift in Sources */,
+				74FBC4F4233F8ED900B8B568 /* ResponseFund.swift in Sources */,
+				74FBC5152340178200B8B568 /* Merch.swift in Sources */,
+				74FBC51D234086A300B8B568 /* RequestNearbyWildPoints.swift in Sources */,
+				74FBC5172340707900B8B568 /* RequestProfile.swift in Sources */,
+				74FBC505233FDEDF00B8B568 /* SignInViewController.swift in Sources */,
+				74FBC503233FD97500B8B568 /* SuccessDonateViewController.swift in Sources */,
 				7447C889233E6174002A8550 /* AppDelegate.swift in Sources */,
-				7447C8A7233F5093002A8550 /* FaundViewController.swift in Sources */,
+				74FBC5112340138700B8B568 /* ProfileViewController.swift in Sources */,
+				74FBC5132340159500B8B568 /* MerchCollectionViewCell.swift in Sources */,
+				74FBC507233FDEEF00B8B568 /* SignUpViewController.swift in Sources */,
+				7447C8A7233F5093002A8550 /* FundViewController.swift in Sources */,
+				74FBC4FA233F99EB00B8B568 /* Reachability.swift in Sources */,
+				74FBC509233FE50A00B8B568 /* DataValidation.swift in Sources */,
+				74FBC51923407DE000B8B568 /* RequestCreateWildPoint.swift in Sources */,
 				7447C8A1233E83D5002A8550 /* MapViewController.swift in Sources */,
+				74FBC50B233FE88100B8B568 /* RequestSignUp.swift in Sources */,
+				74FBC50F233FF2C900B8B568 /* RequestSignIn.swift in Sources */,
+				74FBC51B23407E8F00B8B568 /* ResponseCreateWildPoint.swift in Sources */,
+				74FBC4F6233F910700B8B568 /* ResponceWildPoints.swift in Sources */,
 				7447C8A5233F4575002A8550 /* ARSessionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
