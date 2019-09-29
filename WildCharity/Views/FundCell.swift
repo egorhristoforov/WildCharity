@@ -19,6 +19,13 @@ class FundCell: UITableViewCell {
         super.awakeFromNib()
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        fundBgImage.image = nil
+        fundLogoImage.image = nil
+        fundName.text = ""
+    }
+    
     public func setupCell(fund: Fund) {
         fundName.text = fund.name
         fetchImage(url_img: fund.background_url, for: fundBgImage)
@@ -36,6 +43,7 @@ class FundCell: UITableViewCell {
             DispatchQueue.global(qos: .userInitiated).async {
                 DispatchQueue.main.async {
                     view.kf.setImage(with: url)
+                    print("Set image")
                 }
             }
         }

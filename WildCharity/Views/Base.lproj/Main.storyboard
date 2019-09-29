@@ -41,7 +41,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fund Name" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LoH-Ga-y5E">
                                                     <rect key="frame" x="127" y="42" width="272" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -59,6 +59,7 @@
                                                 <constraint firstItem="FNR-Nf-t3l" firstAttribute="top" secondItem="LJB-2E-3lY" secondAttribute="top" constant="11" id="w7m-tA-IQ7"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.67843137254901964" green="0.67843137254901964" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="fundBgImage" destination="d3F-Ij-DZ1" id="5Fo-sk-sj9"/>
                                             <outlet property="fundLogoImage" destination="FNR-Nf-t3l" id="Bbv-YB-Gfn"/>
@@ -647,7 +648,7 @@
                                             <constraint firstAttribute="width" constant="288" id="a1I-i6-BIB"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" textContentType="name"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Электронная почта" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MaY-et-qfE">
                                         <rect key="frame" x="0.0" y="104.33333333333331" width="288" height="34"/>
@@ -655,7 +656,7 @@
                                             <constraint firstAttribute="width" constant="288" id="8S3-jr-7Jo"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e6h-MA-lui">
                                         <rect key="frame" x="0.0" y="160.33333333333331" width="288" height="34"/>

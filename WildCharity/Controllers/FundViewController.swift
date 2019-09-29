@@ -113,11 +113,22 @@ class FundViewController: UIViewController, UIScrollViewDelegate {
 
                     self.navigationController?.pushViewController(vc, animated: true)
                 } else {
-                    self.navigationController?.popToRootViewController(animated: true)
-                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                    let vc = storyboard.instantiateViewController(withIdentifier: "ARSessionVC") as! ARSessionViewController
-
-                    self.present(vc, animated: true, completion: nil)
+                    //self.navigationController?.popToRootViewController(animated: true)
+//                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//                    let vc = storyboard.instantiateViewController(withIdentifier: "ARSessionVC") as! ARSessionViewController
+//
+//                    self.present(vc, animated: true, completion: nil)
+                    self.locationManager?.startUpdatingLocation()
+                    guard let latitude = self.locationManager?.location?.coordinate.latitude else { return }
+                    guard let longitude = self.locationManager?.location?.coordinate.longitude else { return }
+                    let request = RequestNearbyWildPoints(lon: longitude, lat: latitude)
+                    DataLoader().getNearbyWildPoints(request: request) { (result) in
+                        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                        let vc = storyboard.instantiateViewController(withIdentifier: "ARSessionVC") as! ARSessionViewController
+                        vc.wildPoints = result.wildpoints
+                        print(result.wildpoints.count)
+                        self.present(vc, animated: true, completion: nil)
+                    }
                 }
                 self.setWildPoint()
             }

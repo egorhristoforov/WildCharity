@@ -126,7 +126,29 @@ class ProfileViewController: UIViewController {
 }
 
 extension ProfileViewController: UICollectionViewDelegate {
-    
+    internal func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let user = userInfo else { return }
+        
+        if user.account < merchList[indexPath.row].price {
+            let alert = UIAlertController(title: "Упс", message: "Недостаточно бонусных баллов", preferredStyle: .alert)
+
+            alert.addAction(UIAlertAction(title: "Закрыть", style: .default){ action in
+            })
+
+            self.present(alert, animated: true)
+        } else {
+
+            let alert = UIAlertController(title: "Получить", message: "Хотите приобрести? Будет списано \(merchList[indexPath.row].price) баллов.", preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "Закрыть", style: .cancel){ action in
+            })
+            alert.addAction(UIAlertAction(title: "Приобрести", style: .default){ action in
+                self.viewDidLoad()
+            })
+            
+            self.present(alert, animated: true)
+        }
+    }
 }
 
 extension ProfileViewController: UICollectionViewDataSource {

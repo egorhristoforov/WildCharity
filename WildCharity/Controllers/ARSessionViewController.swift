@@ -33,6 +33,7 @@ class ARSessionViewController: UIViewController, ARSCNViewDelegate {
         
         modelsCount = wildPoints.count
         
+        //TODO: Добавить новые модели животных
         for i in 0..<modelsCount {
             let modelNode = createModel(animal: "Panda")
             modelNode.position = getPositionForModel(withIndex: i)

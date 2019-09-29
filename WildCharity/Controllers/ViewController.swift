@@ -33,7 +33,6 @@ class ViewController: UIViewController, UITableViewDataSource {
         tableView.delegate = self
         tableView.dataSource = self
         self.tableView.addSubview(self.refreshControl)
-        UserDefaultsManager.shared().setToken(nil)
     }
     
     @objc func handleRefresh(_ refreshControl: UIRefreshControl) {
@@ -91,4 +90,17 @@ extension ViewController: UITableViewDelegate {
         navigationController?.pushViewController(vc, animated: true)
         
     }
+    
+//    private func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+//
+//        cell.contentView.backgroundColor = UIColor.clear
+//        let whiteRoundedView : UIView = UIView(frame: CGRect(x: 0, y: 10, width: self.view.frame.size.width, height: 70))
+//        whiteRoundedView.layer.backgroundColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [1.0, 1.0, 1.0, 1.0])
+//            whiteRoundedView.layer.masksToBounds = false
+//            whiteRoundedView.layer.cornerRadius = 3.0
+//        whiteRoundedView.layer.shadowOffset = CGSize(width: -1, height: 1)
+//            whiteRoundedView.layer.shadowOpacity = 0.5
+//            cell.contentView.addSubview(whiteRoundedView)
+//            cell.contentView.sendSubviewToBack(whiteRoundedView)
+//    }
 }
